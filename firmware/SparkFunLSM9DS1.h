@@ -71,7 +71,7 @@ public:
 	// in the IMUSettings struct will take effect after calling this function.
 	uint16_t begin();
 	
-	void calibrate(bool autoCalc = true);
+	void calibrate(bool autoCalc = false);
 	void calibrateMag(bool loadIn = true);
 	void magOffset(uint8_t axis, int16_t offset);
 	
